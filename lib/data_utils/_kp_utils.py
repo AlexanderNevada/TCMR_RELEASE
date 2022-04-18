@@ -726,3 +726,86 @@ def get_smpl_skeleton():
             [21, 23],
         ]
     )
+
+def get_you2me2d_joint_names():
+    return [
+        "nose",      # 0
+        "neck",      # 1
+        "rshoulder", # 2
+        "relbow",    # 3
+        "rwrist",    # 4
+        "lshoulder", # 5
+        "lelbow",    # 6
+        "lwrist",    # 7
+        "midhip",    # 8
+        "rhip",      # 9
+        "rknee",     # 10
+        "rankle",    # 11
+        "lhip",      # 12
+        "lknee",     # 13
+        "lankle",    # 14
+        "reye",      # 15
+        "leye",      # 16
+        "rear",      # 17
+        "lear",      # 18
+        "lbigtoe",   # 19
+        "lsmalltoe", # 20
+        "lheel",     # 21
+        "rbigtoe",   # 22
+        "rsmalltoe", # 23
+        "rheel",     # 24
+        "background" # 25
+    ]
+
+def get_you2me_cmu_3d_joint_names():
+    return [
+        "neck",      # 0
+        "nose",      # 1
+        "bodycenter",# 2
+        "lshoulder", # 3
+        "lelbow",    # 4
+        "lwrist",    # 5
+        "lhip",      # 6
+        "lknee",     # 7
+        "lankle",    # 8
+        "rshoulder", # 9
+        "relbow",    # 10
+        "rwrist",    # 11
+        "rhip",      # 12
+        "rknee",     # 13
+        "rankle",    # 14
+        "leye",      # 15
+        "lear",      # 16
+        "reye",      # 17
+        "rear",      # 18
+    ]
+
+
+def get_you2me_kinect_3d_joint_names():
+    return [
+        'hips',       # 0
+        'spine1',     # 1
+        'neck', # 2
+        "head", # 3
+        "leftShoulder",    # 4
+        "lelbow",    # 5
+        "lwrist",      # 6
+        "leftHand",     # 7
+        "rightShoulder",    # 8
+        "relbow", # 9
+        "rwrist",    # 10
+        "rightHand",    # 11
+        "leftUpLeg",      # 12
+        "leftLeg",     # 13
+        "leftFoot",    # 14
+        "leftToeBase",      # 15
+        "rightUpLeg",      # 16
+        "rightLeg",      # 17
+        "rightFoot",      # 18
+        "rightToeBase", #19
+        "spine4", #20 #TODO
+        "leftHandIndex1",
+        "leftthumbIndex1",
+        "rightHandIndex1",
+        "rightthumbIndex1",
+    ]
