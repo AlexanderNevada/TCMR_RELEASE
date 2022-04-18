@@ -52,7 +52,7 @@ np.random.seed(1)
 
 
 def main(args):
-    device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+    device =  torch.device('cpu')
 
 
     """ Prepare input video (images) """
@@ -117,7 +117,7 @@ def main(args):
         batch_size=64,
         create_transl=False,
         gender=gender
-    ).cuda()
+    )
 
     model.eval()
 
